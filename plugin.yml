@@ -1,0 +1,4 @@
+name: PositionPlugin
+version: 1.0
+main: br.com.position.BukkitMain
+author: KingoZ_
