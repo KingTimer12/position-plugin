@@ -1,0 +1,26 @@
+################################
+###  Position Plugin Config  ###
+################################
+
+#MySQL configuração
+MySQL:
+  Host: 'localhost'
+  Username: 'root'
+  Database: 'XpSystem'
+  Password: ''
+
+#O jogador perderá xp ao morrer se a opção estiver true
+removeXpDeath: false
+
+#Sistema de xp
+#'add' quantidade de xp que o jogador ganhará ao matar
+#'remove' quantidade de xp que o jogador perderá ao matar
+XpSystem:
+  Random: false
+  add: 10
+  remove: 5
+  RandomIsTrue:
+  	addMin: 2
+    addMax: 10
+    removeMin: 2
+    removeMax: 5
