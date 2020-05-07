@@ -14,16 +14,14 @@ public class MySQL {
 	public Connection connection;
 	public Statement statement;
 	
-	//this.host = "35.247.193.169";
-	//this.database = "s1_frostmc";
-	//this.user = "u1_dKeLiJeb06";
-	//this.password = "pDYtO3o65L69hG1t";
+	public MySQL(MySQL mySQL) {
+	}
 	
-	public MySQL() {
-		this.host = "localhost";
-		this.database = "mmorpg";
-		this.user = "root";
-		this.password = "";
+	public MySQL(String host, String database, String user, String password) {
+		this.host = host;
+		this.database = database;
+		this.user = user;
+		this.password = password;
 	}
 	
 	public synchronized void start() {
