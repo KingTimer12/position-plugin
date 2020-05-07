@@ -3,9 +3,9 @@ package br.com.position.data.player;
 import org.bukkit.entity.Player;
 
 import br.com.position.mysql.BukkitAccount;
-import lombok.Getter;
+import lombok.Data;
 
-@Getter
+@Data
 public class DataPlayer {
 	
 	private Player player;
